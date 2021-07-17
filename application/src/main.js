@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import App from './App.vue'
 
- import library from 'custom-lib'
+import library from 'custom-lib'
 import 'custom-lib/dist/customLib.css'
 Vue.use(library);
 
