@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "link":"npm link custom-lib & npm i ../custom-lib",
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "link": "npm link custom-lib & npm i ../custom-lib",
+    "serve": "vue-cli-service serve --fix",
+    "build": "vue-cli-service build --fix",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
